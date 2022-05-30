@@ -81,8 +81,28 @@ h2 {
 
 h3 {
     color: #44BBA4;
+    text-align: center;
 }
 
 th {
-    text-align: center;
+    text-align: left;
+}
+
+.wrapper {
+    text-align: justify;
+}
+
+.wrapper .img-fluid {
+    float:left;
+    margin: 10px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-active {
+    border-style: solid;
+    border-color: #44BBA4;
+    border-width: 3px;
+    box-shadow: 10px;
 }
