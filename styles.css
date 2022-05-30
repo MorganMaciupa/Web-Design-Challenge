@@ -1,5 +1,40 @@
+
+
 .navbar-toggler {
     color: black;
+}
+
+.nav-link:hover {
+    color: F9F7F0;
+    background-color: EF6D2F;
+}
+
+.card {
+    width: 20rem;
+    margin: auto;
+    display: grid;
+}
+  
+.grid-container {
+    display: grid;
+
+    /* For 2 columns */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+@media (max-width: 800px) {
+    .grid-container {
+        display: grid;
+    
+        /* For 2 columns */
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 /* .row {
@@ -7,12 +42,7 @@
     background-color: aquamarine;
 } */
 
-.container {
-    background-color: burlywood;
-    align-items: center;
-}
-
-.image_container {
+/* .image_container {
     display: flex;
     padding: 4px 4px;
     flex-wrap: wrap;
@@ -28,4 +58,33 @@
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+} */
+
+body {
+    background-color: #d3dceb;
+}
+
+.container {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f9fa;
+}
+
+.row .col-md-6 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    color: blue;
+    
+}
+h2 {
+    color: blue;
 }
